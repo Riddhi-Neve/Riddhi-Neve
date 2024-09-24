@@ -4,5 +4,8 @@ int main()
 	int a;
 	printf("Enter the number :- ");
 	scanf("%d",&a);
-	printf("%d\n",evenodd(a));
+	if(evenodd(a))
+		printf("Even\n");
+	else 
+		printf("Odd\n");
 }

@@ -2,12 +2,8 @@
 int evenodd(int a)
 {
 	if (a%2==0)
-	{
-		printf("Even %d\n",a);
-	}
-	else
-	{
-		printf("Odd %d\n",a);
-	}
-return a;
+		return 1;
+	else if (!(a%2==0))
+		return 0;
+	return -1;
 }
